@@ -1,0 +1,9 @@
+.boder {
+    color: white;
+    background: -webkit-linear-gradient(to top, #0072ff, #00c6ff);
+    background: linear-gradient(to top, #0072ff, #00c6ff);
+    box-shadow: 0 0 0 1px #000;
+    border-bottom: 8px solid #016699;
+    border-top: 3px solid #52c5ff;
+  
+}

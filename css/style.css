@@ -1,0 +1,172 @@
+/* body{
+    background-color: #ECEFF1;
+} */
+.tac{
+    width: 60%;
+    text-align: center;
+}
+.tac2{
+    text-align: center;
+}
+
+.bin {
+    min-height: 50px;
+    margin: 10px 10px 10px 0px;
+    padding: 8px 8px 4px 8px;
+    background-color: #ECEFF1;
+}
+
+/* contenedor de personajes1 */
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #ECEFF1;
+}
+.selection{
+    display: flex;
+}/* contenedor de personajes2 */
+.contenedor2 {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.contenedor3{
+    width: 20%;
+}
+.contenedor4{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: start;
+}
+
+/* Maybe you don't want to wrap the destination labels in <p> tags...*/
+.bin>p {
+    margin: 4px;
+    font-weight: 600;
+    pointer-events: none;
+}
+
+.item {
+    cursor: pointer;
+    margin: 5px 5px;
+    padding: 3px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12);
+    transition: margin 0.1s;
+}
+.item3 {
+    cursor: pointer;
+    margin: 3px 5px;
+    padding: 3px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12);
+    transition: margin 0.1s;
+}
+.itemX   {
+    cursor: pointer;
+    margin: 5px 5px 5px 5px;
+    padding: 7px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12);
+    transition: margin 0.1s;
+}
+
+/*Clase para la figura */
+.pieza {
+    width: 13%;
+    max-height: 50px;
+}
+.pieza2 {
+    width: 15%;
+}
+.pieza3 {
+    width: 10%;
+    max-height: 50px;
+    padding: 1px;
+}
+
+
+.item-selected {
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, .2), 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12);
+    margin: 5px -15px 15px -15px;
+}
+
+.bin-selectable {
+    cursor: pointer;
+
+}
+
+div > img {
+    width: 100%;
+}
+.algnTxt{
+        justify-content: center;
+        display: flex;
+}
+div > img > small {
+    font-size: 12px;
+}
+/* Styles for use in the demo only */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #eeeeee;
+    margin: 0px;
+    color: #333333;
+    overflow: auto;
+}
+
+.wrapper-full {
+    width: 100%;
+    display: flex;
+}
+.izquierda{
+    width: 30%;
+    margin:20px 10px auto 10px;
+    background: white;
+    height: 100%;
+    padding: 10px;
+}
+.wrapper {
+    padding: 20px;
+    background: white;
+    margin: 20px 10px 20px 10px;
+    width: 70%;
+}
+
+.donebtn {
+    margin: 10px;
+    padding: 20px;
+    background-color: #00c853;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+.d-none{
+    display: none;
+}
+.d-block{
+    display: block;
+}
+.itemblock{
+    cursor: pointer;
+    margin: 5px 5px;
+    padding: 3px;
+    border-radius: 2px;
+    box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12);
+    transition: margin 0.1s;
+    background: gray;
+}
